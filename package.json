@@ -1,0 +1,21 @@
+{
+    "name": "unhead-repro",
+    "version": "1.0.0",
+    "description": "Reproduction of unhead dynamic import regression in CJS",
+    "scripts": {
+        "test": "jest"
+    },
+    "dependencies": {
+        "@unhead/react": "2.0.18",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "unhead": "2.0.18"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.23.0",
+        "@babel/preset-env": "^7.23.0",
+        "babel-jest": "^29.7.0",
+        "jest": "^29.7.0",
+        "jest-environment-jsdom": "^29.7.0"
+    }
+}
